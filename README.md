@@ -1,5 +1,5 @@
-[![Build Status](http://img.shields.io/travis/teambition/gear.svg?style=flat-square)](https://travis-ci.org/teambition/gear)
-[![Coverage Status](http://img.shields.io/coveralls/teambition/gear.svg?style=flat-square)](https://coveralls.io/r/teambition/gear)
+[![Build Status](https://travis-ci.org/menggggggg/lru.svg?branch=master)](https://travis-ci.org/menggggggg/lru)
+[![Coverage Status](https://coveralls.io/repos/github/menggggggg/lru/badge.svg?branch=master)](https://coveralls.io/github/menggggggg/lru?branch=master)
 
 # LRU- Least Recently Used
 
