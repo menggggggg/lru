@@ -1,0 +1,19 @@
+sudo: false
+language: go
+matrix:
+  include:
+  - go: "1.11.x"
+  - go: "1.12.x"
+
+env:
+  - GO111MODULE=on
+
+before_install:
+  - go get github.com/mattn/goveralls
+
+script:
+  - go get -v -t ./...
+  - go get github.com/modocache/gover
+  - go test -coverprofile=lur.coverprofile
+  - gover
+  - goveralls -coverprofile=gover.coverprofile -service=travis-ci
