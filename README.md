@@ -1,3 +1,6 @@
+[![Build Status](http://img.shields.io/travis/teambition/gear.svg?style=flat-square)](https://travis-ci.org/teambition/gear)
+[![Coverage Status](http://img.shields.io/coveralls/teambition/gear.svg?style=flat-square)](https://coveralls.io/r/teambition/gear)
+
 # LRU- Least Recently Used
 
 操作系统中进行内存管理中时采用一些页面置换算法，如LRU、LFU和FIFO等。其中LRU应用较为广泛。
